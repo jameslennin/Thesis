@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOCUMENTS\YOLOV4-TINY\DARKNET\DARKNET-MASTER\CMAKEFILES\D5ACB9FF1657EBD06C899F9B324076A8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master -BC:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

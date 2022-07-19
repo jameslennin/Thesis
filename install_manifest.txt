@@ -1,0 +1,10 @@
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/darknet.lib
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/darknet.dll
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/include/darknet/darknet.h
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/include/darknet/yolo_v2_class.hpp
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/uselib.exe
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/darknet.exe
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/share/darknet/DarknetTargets.cmake
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/share/darknet/DarknetTargets-release.cmake
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/share/darknet/DarknetConfig.cmake
+C:/Users/admin/Documents/yolov4-tiny/darknet/darknet-master/share/darknet/DarknetConfigVersion.cmake

@@ -13,14 +13,14 @@ import math
 import random
 import os
 
-# Bounding box structure
-class BOX(Structure): 
+
+class BOX(Structure):
     _fields_ = [("x", c_float),
                 ("y", c_float),
                 ("w", c_float),
                 ("h", c_float)]
 
-# parameters for bounding box to detect objectness
+
 class DETECTION(Structure):
     _fields_ = [("bbox", BOX),
                 ("classes", c_int),
@@ -36,7 +36,6 @@ class DETECTION(Structure):
                 ("sim", c_float),
                 ("track_id", c_int)]
 
-# Number of objects detected
 class DETNUMPAIR(Structure):
     _fields_ = [("num", c_int),
                 ("dets", POINTER(DETECTION))]
@@ -137,7 +136,6 @@ def decode_detection(detections):
 
 # https://www.pyimagesearch.com/2015/02/16/faster-non-maximum-suppression-python/
 # link for non max formula
-
 def non_max_suppression_fast(detections, overlap_thresh):
     boxes = []
     for detection in detections:
